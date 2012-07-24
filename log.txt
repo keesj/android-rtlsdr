@@ -1,0 +1,81 @@
+07-25 00:23:49.700: D/UsbHostManager(1994): onUEvent(device) :: action = add, devtype = usb_interface, device = /proc/bus/usb/002/002, product = bda/2832/100, type = 0/0/0, interface = 255/255/255, devpath = /devices/platform/s3c_otghcd/usb2/2-1/2-1:1.0
+07-25 00:23:49.700: D/UsbHostManager(1994): onUEvent(device) :: action = add, devtype = usb_interface, device = /proc/bus/usb/002/002, product = bda/2832/100, type = 0/0/0, interface = 255/255/255, devpath = /devices/platform/s3c_otghcd/usb2/2-1/2-1:1.1
+07-25 00:23:49.700: D/ActivityManager(1994): Trying to launch applicationName
+07-25 00:23:49.705: D/MainActivity(14038): intent: Intent { act=android.hardware.usb.action.USB_DEVICE_ATTACHED flg=0x10000000 cmp=rtlsdr.android/.MainActivity (has extras) }
+07-25 00:23:49.710: D/MainActivity(14038): Listing keys[/dev/bus/usb/002/002]
+07-25 00:23:49.715: D/com.samsung.app(14379): [MSC]>>> SCI:345 [0:0] R : secandroidintentactionHOME_PAUSE
+07-25 00:23:49.715: D/com.samsung.app(14379): [MSC]>>> SCI:351 [0:0] R : no stock widget!!!
+07-25 00:23:49.720: D/comsamsungapp(14392): [MSC_Accu]>>> WWP:375 [0:0] onReceive@ secandroidintentactionHOME_PAUSE
+07-25 00:23:49.720: D/comsamsungapp(14392): [MSC_Accu]>>> WIM:53 [0:0] AccuWeatherClockWidgetID_Length
+07-25 00:23:49.720: D/comsamsungapp(14392): [MSC_Accu]>>> WIM:54 [0:0] getPrefIDs@lngth:0
+07-25 00:23:49.720: D/comsamsungapp(14392): [MSC_Accu]>>> WWP:2289 [0:0] mHandler is null!!
+07-25 00:23:49.720: D/comsamsungapp(14392): [MSC_Accu]>>> WWP:368 [0:0] refreshhandler is null!!
+07-25 00:23:49.720: D/comsamsungapp(14392): [MSC_Accu]>>> WWP:408 [0:0] The widget does not exist in idle!!
+07-25 00:23:49.725: D/CalendarAppWidgetProviderAgenda(14406): onReceive : sec.android.intent.action.HOME_PAUSE
+07-25 00:23:49.725: D/CalendarAppWidgetProviderAgenda(14406): ACTION_HOME_PAUSE: false
+07-25 00:23:49.730: D/GLSurfaceViewGroup(5255): Skipped drawing due to suspendDrawingUntilResume()
+07-25 00:23:49.730: D/MainActivity(14038): Starting nativeMain
+07-25 00:23:49.730: I/rtl_test(14038): Starting native
+07-25 00:23:49.730: W/librtsdr(14038): jni/src/librtlsdr.c/rtlsdr_get_device_count:FIXME
+07-25 00:23:49.730: D/rtl_test(14038): test
+07-25 00:23:49.730: I/rtl_test(14038): Found 1 device(s):
+07-25 00:23:49.730: W/librtsdr(14038): jni/src/librtlsdr.c/rtlsdr_get_device_name:FIXME
+07-25 00:23:49.730: I/rtl_test(14038):   0:  fixme
+07-25 00:23:49.730: W/librtsdr(14038): jni/src/librtlsdr.c/rtlsdr_get_device_name:FIXME
+07-25 00:23:49.730: I/rtl_test(14038): Using device 0: fixme
+07-25 00:23:49.730: D/librtsdr(14038): running host_run
+07-25 00:23:49.730: I/Launcher(5255): onWindowFocusChanged(false)
+07-25 00:23:49.730: I/usbhost(14038): Created device discovery thread
+07-25 00:23:49.730: I/usbhost(14038): usb_device_open /dev/bus/usb/002/002
+07-25 00:23:49.730: D/rtl_test(14038): OPEN  /dev/bus/usb/002/002, 2
+07-25 00:23:49.730: W/MainActivity(14038): Open called /dev/bus/usb/002/002
+07-25 00:23:49.730: I/usbhost(14038): usb_device_new /dev/bus/usb/002/002 fd: 50
+07-25 00:23:49.730: I/usbhost(14038): usb_device_new read returned 52 errno 2
+07-25 00:23:49.730: D/librtsdr(14038): Found known device /dev/bus/usb/002/002
+07-25 00:23:49.730: D/UsbDeviceConnectionJNI(14038): close
+07-25 00:23:49.730: I/usbhost(14038): usb_device_open /dev/bus/usb/002/002
+07-25 00:23:49.730: D/rtl_test(14038): OPEN  /dev/bus/usb/002/002, 2
+07-25 00:23:49.735: W/MainActivity(14038): Open called /dev/bus/usb/002/002
+07-25 00:23:49.735: I/usbhost(14038): usb_device_new /dev/bus/usb/002/002 fd: 46
+07-25 00:23:49.735: I/usbhost(14038): usb_device_new read returned 52 errno 2
+07-25 00:23:49.735: D/librtsdr(14038): Claim interface /dev/bus/usb/002/002
+07-25 00:23:49.740: D/librtsdr(14038): vendor (null)
+07-25 00:23:49.740: D/librtsdr(14038): product (null)
+07-25 00:23:49.750: W/SurfaceView(5255): CHECK surface infomation creating=false formatChanged=false sizeChanged=false visible=false visibleChanged=true surfaceChanged=true realSizeChanged=false redrawNeeded=false left=false top=false
+07-25 00:23:49.760: D/GLSurfaceViewGroup(5255): Skipped drawing due to suspendDrawingUntilResume()
+07-25 00:23:49.765: I/SurfaceFlinger(1831): id=424(2) createSurface 0x4058c (1x1),2 flag=400
+07-25 00:23:49.790: D/CLIPBOARD(5255): Hide Clipboard dialog at Starting input: finished by someone else... !
+07-25 00:23:49.800: I/ActivityManager(1994): Displayed shortComponentName: +100ms
+07-25 00:23:49.950: I/librtsdr(14038): Found Elonics E4000 tuner
+07-25 00:23:49.950: I/librtsdr(14038): found
+07-25 00:23:49.955: I/librtsdr(14038): running tunner init
+07-25 00:23:49.955: I/CalendarProvider2(14406): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+07-25 00:23:49.955: W/ContentResolver(14406): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+07-25 00:23:49.995: I/SurfaceFlinger(1831): id=423 Removed idx=4 Map Size=6
+07-25 00:23:49.995: I/SurfaceFlinger(1831): id=423 Removed idx=-2 Map Size=6
+07-25 00:23:50.100: I/librtsdr(14038): done 
+07-25 00:23:50.100: D/rtl_test(14038): OPENED rtlsdr device #0.
+07-25 00:23:50.100: D/rtl_test(14038): Supported gain values (18): 
+07-25 00:23:50.100: I/rtl_test(14038): -1.0 
+07-25 00:23:50.100: I/rtl_test(14038): 1.5 
+07-25 00:23:50.100: I/rtl_test(14038): 4.0 
+07-25 00:23:50.100: I/rtl_test(14038): 6.5 
+07-25 00:23:50.100: I/rtl_test(14038): 9.0 
+07-25 00:23:50.100: I/rtl_test(14038): 11.5 
+07-25 00:23:50.100: I/rtl_test(14038): 14.0 
+07-25 00:23:50.100: I/rtl_test(14038): 16.5 
+07-25 00:23:50.100: I/rtl_test(14038): 19.0 
+07-25 00:23:50.100: I/rtl_test(14038): 21.5 
+07-25 00:23:50.100: I/rtl_test(14038): 24.0 
+07-25 00:23:50.100: I/rtl_test(14038): 29.0 
+07-25 00:23:50.100: I/rtl_test(14038): 34.0 
+07-25 00:23:50.100: I/rtl_test(14038): 42.0 
+07-25 00:23:50.100: I/rtl_test(14038): 43.0 
+07-25 00:23:50.100: I/rtl_test(14038): 45.0 
+07-25 00:23:50.100: I/rtl_test(14038): 47.0 
+07-25 00:23:50.100: I/rtl_test(14038): 49.0 
+07-25 00:23:50.135: I/rtl_test(14038): Benchmarking E4000 PLL...
+07-25 00:24:05.905: I/rtl_test(14038): E4K range: 52 to 2185 MHz
+07-25 00:24:05.905: I/rtl_test(14038): E4K L-band gap: 1093 to 1236 MHz
+07-25 00:24:05.910: W/librtsdr(14038): jni/src/librtlsdr.c/rtlsdr_close:FIXME
+07-25 00:24:05.910: D/MainActivity(14038): Native main returned 0
