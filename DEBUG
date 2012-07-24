@@ -1,0 +1,7 @@
+Read:
+http://developer.android.com/tools/debugging/debugging-log.html for stdio debugging
+
+And use adb over tcpip:
+adb tcpip 5555
+adb connect 192.168.10.102:5555
+

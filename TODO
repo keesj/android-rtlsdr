@@ -1,0 +1,9 @@
+The goal is of course to be able to use rtlsdr on the road so implement a rtl_tcp thing 
+that works with glSDR https://play.google.com/store/apps/details?id=org.v1al&hl=en would be great
+
+The easy but very usefull stuff
+
+ * Convert the activity to a real service... and create a real UI. Currently it is only a black screen and you
+need logcat to view some output.
+ * The main thing to do now it to implement usb_device_bulk_transfer with the additional read size parameter
+ * res/xml/device_filter.xml only contains a single entry

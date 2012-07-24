@@ -1,0 +1,6 @@
+#clone the jni code to this directory
+git clone git@github.com:keesj/librtlsdr-android jni
+run ndk-build
+build the application 
+plug in your device and use logcat or other tools to view what is happening.
+
