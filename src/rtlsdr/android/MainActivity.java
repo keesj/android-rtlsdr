@@ -24,6 +24,7 @@ public class MainActivity extends Activity implements View.OnClickListener,
 
 	static {
 		try {
+			System.loadLibrary("usb");
 			System.loadLibrary("rtlsdr");
 			System.loadLibrary("rtltest");
 		} catch (Throwable t) {
@@ -42,8 +43,11 @@ public class MainActivity extends Activity implements View.OnClickListener,
 		super.onPause();
 	}
 
+	/*
+	 * Method called by the native code to get a device handle
+	 */
 	public UsbDeviceConnection open(String device_name) {
-		Log.w(TAG, "Open called " + device_name);
+		Log.d(TAG, "Open called " + device_name);
 		UsbDevice usbDevice;
 		usbDevice = mUsbManager.getDeviceList().get(device_name);
 		if (usbDevice != null) {
@@ -69,7 +73,6 @@ public class MainActivity extends Activity implements View.OnClickListener,
 				.getParcelableExtra(UsbManager.EXTRA_DEVICE);
 		if (UsbManager.ACTION_USB_DEVICE_ATTACHED.equals(action)) {
 			setDevice(device);
-
 		} else if (UsbManager.ACTION_USB_DEVICE_DETACHED.equals(action)) {
 			setDevice(null);
 		}
@@ -110,5 +113,4 @@ public class MainActivity extends Activity implements View.OnClickListener,
 		getMenuInflater().inflate(R.menu.activity_main, menu);
 		return true;
 	}
-
 }
