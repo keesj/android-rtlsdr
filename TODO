@@ -5,4 +5,3 @@ The easy but very usefull stuff
 
  * Convert the activity to a real service... and create a real UI. Currently it is only a black screen and you
 need logcat to view some output.
- * res/xml/device_filter.xml only contains a single entry but needs to contain a hole lot more.
