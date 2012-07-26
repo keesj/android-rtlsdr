@@ -14,10 +14,58 @@
      limitations under the License.
 -->
 <resources>
-    <!-- 
-    Bus 002 Device 013: ID 0bda:2832 Realtek Semiconductor Corp. RTL2832U DVB-T
-    
-    But the Android code uses integers
-     -->
-     <usb-device vendor-id="3034" product-id="10290" />
+  <!-- Generic RTL2832U (e.g. hama nano) -->
+  <usb-device vendor-id="3034" product-id="10290"/>
+  <!-- ezcap USB 2.0 DVB-T/DAB/FM dongle -->
+  <usb-device vendor-id="3034" product-id="10296"/>
+  <!-- Terratec Cinergy T Stick Black (rev 1) -->
+  <usb-device vendor-id="3277" product-id="169"/>
+  <!-- Terratec NOXON DAB/DAB+ USB dongle (rev 1) -->
+  <usb-device vendor-id="3277" product-id="179"/>
+  <!-- Terratec NOXON DAB/DAB+ USB dongle (rev 1) -->
+  <usb-device vendor-id="3277" product-id="180"/>
+  <!-- Terratec NOXON DAB/DAB+ USB dongle (rev 1) -->
+  <usb-device vendor-id="3277" product-id="183"/>
+  <!-- Terratec NOXON DAB/DAB+ USB dongle (rev 1) -->
+  <usb-device vendor-id="3277" product-id="198"/>
+  <!-- Terratec Cinergy T Stick RC (Rev.3) -->
+  <usb-device vendor-id="3277" product-id="211"/>
+  <!-- Terratec T Stick PLUS -->
+  <usb-device vendor-id="3277" product-id="215"/>
+  <!-- Terratec NOXON DAB/DAB+ USB dongle (rev 2) -->
+  <usb-device vendor-id="3277" product-id="224"/>
+  <!-- Compro Videomate U620F -->
+  <usb-device vendor-id="6235" product-id="1568"/>
+  <!-- Compro Videomate U650F -->
+  <usb-device vendor-id="6235" product-id="1616"/>
+  <!-- Compro Videomate U680F -->
+  <usb-device vendor-id="6235" product-id="1664"/>
+  <!-- GTek T803 -->
+  <usb-device vendor-id="8013" product-id="47107"/>
+  <!-- Lifeview LV5TDeluxe -->
+  <usb-device vendor-id="8013" product-id="51203"/>
+  <!-- MyGica TD312 -->
+  <usb-device vendor-id="8013" product-id="53894"/>
+  <!-- PROlectrix DV107669 -->
+  <usb-device vendor-id="8013" product-id="55299"/>
+  <!-- Zaapa ZT-MINDVBZP -->
+  <usb-device vendor-id="7040" product-id="54168"/>
+  <!-- Twintech UT-40 -->
+  <usb-device vendor-id="7040" product-id="54180"/>
+  <!-- Dexatek DK DVB-T Dongle (Logilink VG0002A) -->
+  <usb-device vendor-id="7449" product-id="4353"/>
+  <!-- Dexatek DK DVB-T Dongle (MSI DigiVox mini II V3.0) -->
+  <usb-device vendor-id="7449" product-id="4354"/>
+  <!-- Dexatek Technology Ltd. DK 5217 DVB-T Dongle -->
+  <usb-device vendor-id="7449" product-id="4355"/>
+  <!-- Genius TVGo DVB-T03 USB dongle (Ver. B) -->
+  <usb-device vendor-id="1112" product-id="28799"/>
+  <!-- GIGABYTE GT-U7300 -->
+  <usb-device vendor-id="7040" product-id="54163"/>
+  <!-- DIKOM USB-DVBT HD -->
+  <usb-device vendor-id="7040" product-id="54164"/>
+  <!-- Peak 102569AGPK -->
+  <usb-device vendor-id="7040" product-id="54165"/>
+  <!-- SVEON STV20 DVB-T USB & FM -->
+  <usb-device vendor-id="7040" product-id="54173"/>
 </resources>
