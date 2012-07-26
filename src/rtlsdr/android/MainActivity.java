@@ -27,6 +27,7 @@ public class MainActivity extends Activity implements View.OnClickListener,
 			System.loadLibrary("usb");
 			System.loadLibrary("rtlsdr");
 			System.loadLibrary("rtltest");
+			System.loadLibrary("rtltcp");
 		} catch (Throwable t) {
 			Log.w(TAG, "Failed to load native library:" + t.getMessage(), t);
 		}
@@ -102,11 +103,12 @@ public class MainActivity extends Activity implements View.OnClickListener,
 	@Override
 	public void run() {
 		Log.d(TAG, "Starting nativeMain");
-		int retval = nativeMain();
+		int retval = nativeRtlSdrTcp();
 		Log.d(TAG, "Native main returned " + retval);
 	}
 
-	private native int nativeMain();
+	private native int nativeRtlSdrTest();
+	private native int nativeRtlSdrTcp();
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
